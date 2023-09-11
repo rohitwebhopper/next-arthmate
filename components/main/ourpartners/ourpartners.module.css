@@ -1,0 +1,157 @@
+.h1 {
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 36px;
+  margin-top: 50px;
+}
+.box {
+  display: flex;
+}
+.box > div {
+  padding: 40px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+}
+.spice {
+  display: flex;
+  align-items: center;
+  width: 150px;
+}
+.spice img {
+  width: 100%;
+}
+.tradeindia {
+  width: 120px;
+}
+.tradeindia img {
+  width: 100%;
+}
+.finance {
+  width: 230px;
+  display: flex;
+  align-items: center;
+}
+.finance img {
+  width: 100%;
+}
+.recur {
+  width: 130px;
+  display: flex;
+  align-items: center;
+}
+.recur img {
+  width: 100%;
+}
+.checkbook {
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+.checkbook img {
+  width: 100%;
+}
+.payme {
+  width: 130px;
+  display: flex;
+  align-items: center;
+}
+.payme img {
+  width: 100%;
+}
+/*  */
+
+.boxn {
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+}
+.boxi {
+  display: flex;
+}
+.boxi > div {
+  padding: 0px 30px 0px 30px;
+}
+.rapi {
+  width: 150px;
+  display: flex;
+  align-items: center;
+}
+.rapi img {
+  width: 100%;
+}
+.karbon {
+  width: 130px;
+  display: flex;
+  align-items: center;
+}
+.karbon img {
+  width: 100%;
+}
+.truebalance {
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+.truebalance img {
+  width: 100%;
+}
+.savein {
+  width: 150px;
+  display: flex;
+  align-items: center;
+}
+.savein img {
+  width: 100%;
+}
+.karmalife {
+  width: 170px;
+  display: flex;
+  align-items: center;
+}
+.karmalife img {
+  width: 100%;
+}
+.bpay {
+  width: 170px;
+  display: flex;
+  align-items: center;
+}
+.bpay img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1350px) {
+  .box > div {
+    padding: 1vw;
+  }
+  .boxi > div {
+    padding: 1vw !important;
+  }
+}
+@media only screen and (max-width: 1120px) {
+  .container {
+    flex-direction: column;
+    padding: 30px;
+  }
+  .box > div {
+    padding: 0vw 1.5vw 0vw 1.5vw;
+  }
+  .box {
+    justify-content: center;
+  }
+  .boxn {
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+  }
+  .boxi {
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+  .boxi > div {
+    padding: 0vw 2vw 0vw 2vw;
+  }
+}

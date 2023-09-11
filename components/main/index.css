@@ -1,0 +1,272 @@
+.left-one {
+  margin-left: 43px;
+}
+.left-two {
+  margin-left: 90px;
+}
+.right-one {
+  margin-left: 180px;
+}
+.right-two {
+  margin-left: 150px;
+}
+
+.bannerimg {
+  width: 100%;
+  height: 100%;
+}
+.invest-f-size {
+  font-size: 46px;
+  font-weight: 600;
+  width: 500px;
+  line-height: 60px;
+}
+
+.investment-box {
+  width: 1400px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.investment-box > div {
+  width: 50%;
+}
+/* Why Arthmate */
+.check-box-h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--main-color);
+}
+.check-box-div {
+  width: 50%;
+}
+.check-box-img {
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+  color: #456dbb;
+}
+.check-img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+.arthh2 {
+  font-size: 34px;
+}
+.check-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.check-box > div {
+  align-items: center;
+  margin-left: 5vw;
+  font-size: 13px;
+}
+
+.right {
+  margin-right: 130px;
+}
+.arthp-div {
+  margin-bottom: 40px;
+  width: 100%;
+}
+.states-div {
+  margin-bottom: 50px;
+  width: 100%;
+}
+.sint-div {
+  width: 50%;
+}
+.since-div {
+  margin-left: 20px;
+  width: 50%;
+}
+.arthp {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.Why_Arthmate h1 {
+  font-size: 36px;
+  font-weight: 500;
+}
+.whyfont {
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.whyp-font {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38px;
+}
+
+.Why_Arthmate p {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.Why_Arthmate .CheckBox_Section {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px auto;
+}
+
+.CheckBox_Section {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+.why-w-p {
+  width: 1060px;
+  line-height: 38px;
+}
+
+.CheckBox_Section section {
+  display: flex;
+  align-items: center;
+}
+
+.CheckBox_Section section img {
+  height: 30px;
+  width: 30px;
+}
+
+.Why_Arthmate .CheckBox_Section h1 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.check-box-center {
+  margin-top: 60px;
+}
+.c-m-t {
+  margin-top: 30px;
+}
+.yourtext {
+  margin-top: 15px;
+  width: 500px;
+  font-size: 18px;
+}
+@media only screen and (max-width: 600px) {
+  .yourtext {
+    font-size: 3.5vw !important;
+  }
+  .whyfont{
+    font-size: 6vw !important;
+  }
+  .whyp-font{
+    font-size: 3.5vw !important;
+    font-weight: normal;
+  }
+
+ 
+}
+
+@media only screen and (max-width: 800px) {
+ 
+  .left-one {
+    margin-left: 0vw !important;
+  }
+  .left-two {
+    margin-left: 0vw !important;
+  }
+  .right-one {
+    margin-left: 30vw !important;
+  }
+  .right-two {
+    margin-left: 29.1vw !important;
+  }
+  .check-box-div {
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .check-left {
+    margin-left: 0;
+  }
+  .check-box-center {
+    display: flex;
+    justify-content: center;
+  }
+  .check-box-container {
+    flex-direction: column;
+  }
+  .check-box-h2 {
+    font-size: 3.5vw !important;
+    font-weight: 500;
+  }
+
+  .bannertext {
+    font-size: 7vw;
+    width: 100%;
+    line-height: 7vw;
+    text-align: center;
+  }
+
+  .investment-box {
+    flex-direction: column;
+  }
+  .investment-box > div {
+    width: 100%;
+  }
+  .bannerimg {
+    margin-top: 30px;
+    width: 80vw;
+  }
+
+  .yourtext {
+    font-size: 2vw;
+    width: 80vw !important;
+    margin-top: 15px;
+    text-align: center;
+  }
+  .m-yourtext {
+    display: flex;
+    justify-content: center;
+  }
+
+  .whyfont {
+    font-size: 4vw;
+  }
+  .whyp-font {
+    font-size: 2.4vw;
+  }
+  .whyp-font {
+    line-height: 5vw;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .yourtext {
+    width: 40vw;
+  }
+}
+@media only screen and (max-width: 1260px) {
+  .why-w-p {
+    width: 80vw;
+  }
+  .check-box-h2 {
+    font-size: 1.6vw;
+  }
+}
+@media only screen and (max-width: 1350px) {
+  .left-one {
+    margin-left: 5vw;
+  }
+  .left-two {
+    margin-left: 4vw;
+  }
+  .right-one {
+    margin-left: 9vw;
+  }
+  .right-two {
+    margin-left: 8.5vw;
+  }
+  .check-box-img {
+    width: 4.5vw;
+    height: 4.5vw;
+  }
+}

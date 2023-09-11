@@ -1,0 +1,104 @@
+[type="radio"] {
+  display: none;
+}
+.slider-text {
+  margin-top: -50px;
+}
+.slider-test {
+  margin-bottom: 50px;
+  margin-left: 572px;
+  font-size: 36px;
+  color: var(--main-color);
+  font-weight: 500;
+}
+.slider-comma {
+  font-size: 100px;
+  color: rgb(147, 150, 150);
+}
+.slide-c-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slide-c-box > div {
+  text-align: center;
+}
+.slider-circle {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(147, 150, 150);
+  border-radius: 50px;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: -24px;
+}
+
+.slider-controls {
+  margin-left: 405px;
+  display: flex;
+}
+.slider-prev-button {
+  margin-right: 20px;
+}
+
+.slider-controls button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #294782;
+  background-color: white;
+}
+.slider-box {
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+#slider {
+  height: 280px;
+  width: 800px;
+  margin: 0 auto;
+  position: relative;
+  perspective: 900px;
+  transform-style: preserve-3d;
+}
+
+#slider label {
+  margin: auto;
+  background-color: aliceblue;
+  border-radius: 20px;
+  width: 60%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+#s1:checked ~ #slide3,
+#s2:checked ~ #slide1,
+#s3:checked ~ #slide2 {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  transform: translate3d(-95%, 0, -100px);
+}
+
+#s1:checked ~ #slide1,
+#s2:checked ~ #slide2,
+#s3:checked ~ #slide3 {
+  margin-top: -40px;
+  box-shadow: 0 13px 25px 0 rgba(0, 0, 0, 0.3), 0 11px 7px 0 rgba(0, 0, 0, 0.19);
+  transform: translate3d(0, 0, 0);
+  background-color: #294782;
+  color: white;
+}
+
+#s1:checked ~ #slide2,
+#s2:checked ~ #slide3,
+#s3:checked ~ #slide1 {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  transform: translate3d(95%, 0, -100px);
+}

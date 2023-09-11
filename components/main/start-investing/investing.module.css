@@ -1,0 +1,146 @@
+.classfluid {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url(../../../assets/images/bg-invest.png);
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+.nvest {
+  display: flex;
+  width: 1400px;
+  padding: 30px;
+}
+.box {
+  line-height: 60px;
+  width: 850px;
+}
+.box h1 {
+  color: #3359a4;
+  font-family: var(--font-family);
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+.box h2 {
+  color: #3359a4;
+  font-size: 24px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  margin-bottom: 28px;
+}
+
+.box2 img {
+  margin-left: 28px;
+  width: 215px;
+}
+.circle {
+  margin-right: 20px;
+  font-size: 24px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  height: 40px;
+  width: 40px;
+  background-color: #3359a4;
+  margin-bottom: 28px;
+}
+.aertx {
+  margin-bottom: 22px;
+  font-size: 16px;
+}
+.aert {
+  margin-bottom: 22px;
+  font-size: 16px;
+}
+.investingbox {
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 600px) {
+  .box h1 {
+    font-size: 6vw;
+  }
+  .box h2 {
+    font-size: 4.5vw !important;
+    text-align: center;
+  }
+  .aertx {
+    font-size: 3.5vw !important;
+  }
+  .aert {
+    font-size: 3.5vw !important;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .classfluid {
+    padding-top: 0px;
+  }
+  .nvest {
+    flex-direction: column;
+    width: 100%;
+  }
+  .box {
+    width: 100% !important;
+  }
+  .box h1 {
+    display: flex;
+    justify-content: center;
+  }
+  .box h2 {
+    display: flex;
+    justify-content: center;
+  }
+  .investingmobilebox {
+    display: flex;
+    justify-content: center;
+  }
+  .aertx {
+    width: 100% !important;
+  }
+  .mobile {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+  }
+  .circle {
+    font-size: 2.5vw !important;
+    width: 3vw;
+    height: 3vw;
+  }
+  .box2 img {
+    margin-left: 0px;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .box {
+    width: 60%;
+  }
+  .mobile {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 1250px) {
+  .box h2 {
+    line-height: 30px;
+    font-size: 1.2rem;
+  }
+  .aertx {
+    line-height: 25px;
+    width: 40vw;
+    font-size: 0.9rem;
+  }
+  .aert {
+    line-height: 25px;
+    font-size: 0.9rem;
+  }
+  .circle {
+    font-size: 1.8vw;
+    width: 3vw;
+    height: 3vw;
+  }
+}

@@ -1,0 +1,21 @@
+.containerfluid{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+.container{
+    width: 1400px;
+}
+.logo{
+    padding: 8px 0px 0px 8px;
+    position: relative;
+}
+
+@media only screen and (max-width:750px){
+    .logo{
+        width: none;
+    }
+}
+/* @media only screen and (max-width:600px){
+.logo
+} */

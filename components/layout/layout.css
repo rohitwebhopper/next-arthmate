@@ -1,0 +1,92 @@
+.f-box {
+  width: 410px;
+  padding: 30px 20px 30px 20px;
+}
+.f-box img {
+  /* width: 60%; */
+  height: 70%;
+}
+.time {
+  display: flex;
+  justify-content: center;
+}
+
+.f4-text {
+  color: white;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+.f5-text {
+  color: white;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+@media only screen and (max-width: 1400px) {
+  .f-box {
+    width: 30vw;
+    padding: 10px 10px 10px 10px;
+  }
+  .f-box img {
+    width: 20vw;
+    padding: 0px 0px 0px 0px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .sm-fbox {
+    flex-direction: column;
+    width: 100%;
+  }
+  .f-box {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .f-box img {
+    width: 40vw;
+    padding: 0px 0px 0px 0px;
+  }
+  .m-fi-box {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-f4 {
+    display: flex;
+    justify-content: center;
+  }
+  .f5-text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+  }
+  .f4-text-text {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-h5 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .footer-h5flex {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .f4-text {
+    font-size: 5vw !important;
+  }
+  .f5-text {
+    font-size: 3.5vw !important;
+    text-align: center !important;
+    width: 70vw;
+  }
+  .f-box img {
+    width: 40vw !important;
+    padding: 10px 10px 10px 10px;
+  }
+}
